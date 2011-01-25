@@ -1,0 +1,14 @@
+Revision history for Perl module Pod-Weaver-PluginBundle-Author-DOHERTY
+
+0.004     2011-01-24
+    * Rename to Pod::Weaver::PluginBungle::Author::DOHERTY per http://is.gd/MTB9aE
+
+0.003     2011-01-18
+    * Require Pod::Weaver::Section::Availability v1.110091
+    * Note reasons for requiring certain versions
+
+0.002     2010-11-26
+    * Add a CREDITS section
+
+0.001     2010-10-31
+    * Initial version
