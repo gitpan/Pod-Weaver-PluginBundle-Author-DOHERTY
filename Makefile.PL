@@ -21,7 +21,7 @@ my %WriteMakefileArgs = (
   },
   'DISTNAME' => 'Pod-Weaver-PluginBundle-Author-DOHERTY',
   'EXE_FILES' => [],
-  'LICENSE' => 'gpl',
+  'LICENSE' => 'perl',
   'NAME' => 'Pod::Weaver::PluginBundle::Author::DOHERTY',
   'PREREQ_PM' => {
     'Pod::Weaver::Config::Assembler' => '0',
@@ -30,7 +30,7 @@ my %WriteMakefileArgs = (
     'Pod::Weaver::Section::BugsAndLimitations' => '1.102670',
     'Pod::Weaver::Section::SourceGitHub' => '0.53'
   },
-  'VERSION' => '0.004',
+  'VERSION' => '0.005',
   'test' => {
     'TESTS' => 't/*.t'
   }
