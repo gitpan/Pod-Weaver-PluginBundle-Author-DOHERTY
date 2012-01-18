@@ -55,13 +55,13 @@
       "bugtracker" : {
          "web" : "https://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY/issues"
       },
-      "homepage" : "http://p3rl.org/Pod::Weaver::PluginBundle::Author::DOHERTY",
+      "homepage" : "http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-DOHERTY/",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY.git",
          "web" : "https://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY"
       }
    },
-   "version" : "0.001"
+   "version" : "0.006"
 }
 

@@ -2,7 +2,7 @@ package Pod::Weaver::PluginBundle::Author::DOHERTY;
 # ABSTRACT: Pod::Weaver configuration the way DOHERTY does it
 use strict;
 use warnings;
-our $VERSION = '0.001'; # VERSION
+our $VERSION = '0.006'; # VERSION
 
 use Pod::Weaver::Config::Assembler;
 
@@ -48,13 +48,13 @@ Pod::Weaver::PluginBundle::Author::DOHERTY - Pod::Weaver configuration the way D
 
 =head1 VERSION
 
-version 0.001
+version 0.006
 
 =for Pod::Coverage mvp_bundle_config
 
 =head1 AVAILABILITY
 
-The project homepage is L<http://p3rl.org/Pod::Weaver::PluginBundle::Author::DOHERTY>.
+The project homepage is L<http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-DOHERTY/>.
 
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN

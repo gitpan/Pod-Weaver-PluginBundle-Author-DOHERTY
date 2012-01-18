@@ -3,11 +3,11 @@ NAME
     the way DOHERTY does it
 
 VERSION
-    version 0.001
+    version 0.006
 
 AVAILABILITY
     The project homepage is
-    <http://p3rl.org/Pod::Weaver::PluginBundle::Author::DOHERTY>.
+    <http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-DOHERTY/>.
 
     The latest version of this module is available from the Comprehensive
     Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
