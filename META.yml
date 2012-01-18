@@ -5,24 +5,32 @@ author:
 build_requires:
   File::Find: 0
   File::Temp: 0
+  Module::Build: 0.3601
   Test::More: 0
 configure_requires:
-  ExtUtils::MakeMaker: 6.31
+  ExtUtils::MakeMaker: 6.30
+  Module::Build: 0.3601
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200004, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.300006, CPAN::Meta::Converter version 2.113640'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: Pod-Weaver-PluginBundle-Author-DOHERTY
+no_index:
+  directory:
+    - corpus
 requires:
   Pod::Weaver::Config::Assembler: 0
   Pod::Weaver::Plugin::Encoding: 0
-  Pod::Weaver::Section::Availability: 1.102570
-  Pod::Weaver::Section::BugsAndLimitations: 1.102670
+  Pod::Weaver::Section::Availability: 1.20
+  Pod::Weaver::Section::BugsAndLimitations: 1.20
   Pod::Weaver::Section::SourceGitHub: 0.53
   perl: 5.006
+  strict: 0
+  warnings: 0
 resources:
   bugtracker: https://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY/issues
+  homepage: http://p3rl.org/Pod::Weaver::PluginBundle::Author::DOHERTY
   repository: git://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY.git
-version: 0.005
+version: 0.001

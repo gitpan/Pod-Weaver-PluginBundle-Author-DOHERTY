@@ -2,13 +2,7 @@ package Pod::Weaver::PluginBundle::Author::DOHERTY;
 # ABSTRACT: Pod::Weaver configuration the way DOHERTY does it
 use strict;
 use warnings;
-our $VERSION = '0.005'; # VERSION
-
-# Dependencies
-use Pod::Weaver::Plugin::Encoding                       qw();
-use Pod::Weaver::Section::Availability       1.102570   qw(); # To set github URLs properly: https://rt.cpan.org/Ticket/Display.html?id=63364
-use Pod::Weaver::Section::SourceGitHub       0.53       qw();
-use Pod::Weaver::Section::BugsAndLimitations 1.102670   qw(); # To read the bugtracker properly: https://rt.cpan.org/Ticket/Display.html?id=61605
+our $VERSION = '0.001'; # VERSION
 
 use Pod::Weaver::Config::Assembler;
 
@@ -54,20 +48,17 @@ Pod::Weaver::PluginBundle::Author::DOHERTY - Pod::Weaver configuration the way D
 
 =head1 VERSION
 
-version 0.005
+version 0.001
 
 =for Pod::Coverage mvp_bundle_config
 
 =head1 AVAILABILITY
 
+The project homepage is L<http://p3rl.org/Pod::Weaver::PluginBundle::Author::DOHERTY>.
+
 The latest version of this module is available from the Comprehensive Perl
 Archive Network (CPAN). Visit L<http://www.perl.com/CPAN/> to find a CPAN
-site near you, or see L<http://search.cpan.org/dist/Pod-Weaver-PluginBundle-Author-DOHERTY/>.
-
-The development version lives at L<http://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY>
-and may be cloned from L<git://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY.git>.
-Instead of sending patches, please fork this project using the standard
-git and github infrastructure.
+site near you, or see L<https://metacpan.org/module/Pod::Weaver::PluginBundle::Author::DOHERTY/>.
 
 =head1 SOURCE
 
@@ -76,10 +67,8 @@ and may be cloned from L<git://github.com/doherty/Pod-Weaver-PluginBundle-Author
 
 =head1 BUGS AND LIMITATIONS
 
-No bugs have been reported.
-
-Please report any bugs or feature requests through the web interface at
-L<https://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY/issues>.
+You can make new bug reports, and view existing ones, through the
+web interface at L<https://github.com/doherty/Pod-Weaver-PluginBundle-Author-DOHERTY/issues>.
 
 =head1 AUTHOR
 
