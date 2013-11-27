@@ -2,7 +2,7 @@ package Pod::Weaver::PluginBundle::Author::DOHERTY;
 # ABSTRACT: Pod::Weaver configuration the way DOHERTY does it
 use strict;
 use warnings;
-our $VERSION = '0.007'; # VERSION
+our $VERSION = '0.008'; # VERSION
 
 use Pod::Weaver::Config::Assembler;
 
@@ -11,7 +11,7 @@ sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 sub mvp_bundle_config {
     return (
         [ '@Author::DOHERTY/CorePrep',              _exp('@CorePrep'),          {} ],
-        [ '@Author::DOHERTY/Encoding',              _exp('-Encoding'),          {} ],
+        [ '@Author::DOHERTY/SingleEncoding',        _exp('-SingleEncoding'),    {} ],
         [ '@Author::DOHERTY/Name',                  _exp('Name'),               {} ],
         [ '@Author::DOHERTY/Version',               _exp('Version'),            {} ],
 
@@ -38,11 +38,11 @@ sub mvp_bundle_config {
 
 1;
 
-
+__END__
 
 =pod
 
-=encoding utf-8
+=encoding UTF-8
 
 =head1 NAME
 
@@ -50,7 +50,7 @@ Pod::Weaver::PluginBundle::Author::DOHERTY - Pod::Weaver configuration the way D
 
 =head1 VERSION
 
-version 0.007
+version 0.008
 
 =for Pod::Coverage mvp_bundle_config
 
@@ -84,7 +84,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
